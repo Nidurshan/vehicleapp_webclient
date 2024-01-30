@@ -1,0 +1,51 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-title{
+    font-size: 3rem;
+    margin-left: 300px;
+    padding-top: 30px;
+    margin-bottom: 60px;
+}
+.vehicle-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 20px auto;
+    margin-left: 305px;
+}
+input{
+    border: 1px solid black;
+    width: 300px !important;
+    max-height: 40px !important;
+    padding: 15px !important;
+    margin-bottom: -15px;
+    border-radius: 4px;
+}
+
+.document-container{
+    margin-top: -170px;
+    margin-left: 55rem;
+}
+
+.create-btn{
+    font-size: 1.5rem;
+    background-color: rgb(4, 138, 4);
+    border: none;
+    width: 130px;
+    text-align: center;
+    margin-left: 43rem;
+    padding: 10px;
+    position: absolute;
+    top: 28rem;
+    color: white;
+    cursor: pointer;
+}
+
+.create-btn:hover{
+    background-color: rgb(15, 226, 15);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
